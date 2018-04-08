@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 /*
 	Hyperspace by HTML5 UP
@@ -1642,7 +1642,7 @@
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
 		font-family: 'Noto Sans TC', sans-serif;
-		font-size: 16.5pt;
+		font-size: 1.25em;
 		font-weight: normal;
 		line-height: 1.75;
 	}
@@ -1650,7 +1650,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 1.25em;
 			}
 
 		}
@@ -1895,13 +1895,13 @@
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.6em;
+		font-size: 1em;
 		font-weight: bold;
-		height: calc(4.75em + 2px);
+		height: calc(3em + 1px);
 		letter-spacing: 0.25em;
-		line-height: 4.75em;
+		line-height: 3em;
 		outline: 0;
-		padding: 0 3.75em;
+		padding: 0 2em;
 		position: relative;
 		text-align: center;
 		text-decoration: none;
@@ -3422,7 +3422,7 @@
 						border: 0;
 						color: rgba(255, 255, 255, 0.35);
 						display: inline-block;
-						font-size: 0.6em;
+						font-size: 1em;
 						font-weight: bold;
 						letter-spacing: 0.25em;
 						text-transform: uppercase;
@@ -3476,7 +3476,7 @@
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
-		margin-left: 18em;
+		margin-left: 25%;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3544,7 +3544,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 18em;
+		width: 25%;
 		z-index: 10000;
 	}
 
@@ -3572,6 +3572,9 @@
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
+		}
+		.inner::-webkit-scrollbar {
+			display: none;
 		}
 
 			body.is-ie #sidebar > .inner {
@@ -3750,7 +3753,7 @@
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 1em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
